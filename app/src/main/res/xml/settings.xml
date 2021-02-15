@@ -1,0 +1,50 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--CheckBoxPreference
+    android:key="larger_buffer"
+    android:title="@string/pref_larger_buffer"
+    android:defaultValue="false"
+  /-->
+
+  <PreferenceCategory
+      android:title="@string/pref_cat_a4"
+  >
+  <ListPreference
+    android:key="a4_hz"
+    android:title="@string/pref_a4_hz"
+    android:entries="@array/a4_hz_entries"
+    android:entryValues="@array/a4_hz_values"
+    android:dialogTitle="@string/pref_a4_hz"
+    android:defaultValue="@string/default_a4_hz"
+  />
+
+  <EditTextPreference
+    android:key="a4_hz_other"
+    android:title="@string/pref_a4_hz_other"
+    android:defaultValue="@string/default_a4_hz"
+    android:inputType="numberDecimal"
+    android:maxLength="8"
+    android:enabled="false"
+    />
+  </PreferenceCategory>
+
+  <PreferenceCategory
+      android:title="@string/pref_cat_beginners"
+  >
+  <CheckBoxPreference
+    android:key="flat_sharp_hint"
+    android:title="@string/pref_flat_sharp_hint"
+    android:defaultValue="false"
+  />
+  </PreferenceCategory>
+
+  <PreferenceCategory
+    android:title="@string/pref_cat_support_dev"
+  >
+
+    <Preference
+       android:summary="@string/pref_support_dev_blurb"
+       android:layout="@layout/support_dev_pref"
+       android:enabled="false"
+    />
+  </PreferenceCategory>
+</PreferenceScreen>

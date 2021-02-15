@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string formatted="false" name="app_full_name">WPS Tuner</string>
+  <string formatted="false" name="app_launcher_name">WPSaudio</string>
+  <string formatted="false" name="mic_unavailable_title">Mic Unavailable</string>
+  <string formatted="false" name="mic_unavailable_message">Another
+  app is currently using the microphone (e.g., the phone, another tuner, a sound recorder, etc.).\n
+
+  \nPlease close the other app then try again.
+  </string>
+  <string formatted="false" name="okay">Okay</string>
+  <string formatted="false" name="need_mic_permission">WPS Tuner requires access to microphone!</string>
+
+  <string formatted="false" name="menu_settings">Settings</string>
+  <string formatted="false" name="menu_help">Help</string>
+  <string formatted="false" name="menu_rate_and_review">Rate &amp; Review</string>
+
+
+  <string formatted="false" name="help_cat_maintenance">Maintenance</string>
+  <string formatted="false" name="help_maintenance">
+    This app is not maintained on a regular basis. It is a community driven project and was made with educational purposes.
+    Comme and visit our <a href="http://www.willpoweredstudents.org">site</a>.
+    or join the community on our <a href="https://discord.gg/k9FCs8y">Discord server</a>.
+  </string>
+
+  <string formatted="false" name="help_cat_disclaimer">Disclaimer</string>
+  <string formatted="false" name="help_disclaimer">
+    This app was made based on the source code of Noteworthy Tuner by Darshan Computing, LLC.
+    This is the <a href="http://www.noteworthytuner.com">weblink</a> for there app. If you want to original code (in java), <a href="https://github.com/darshan-/Noteworthy-Tuner-Support/blob/master/SourceCode.md">this</a>
+    is there GitHub.
+  </string>
+
+  <string formatted="false" name="help_cat_open_source">Open Source</string>
+  <string formatted="false" name="help_open_source">This
+    is an open source project. You can get the code (written in Kotlin) on <a href="http://www.noteworthytuner.com/sourcecode"> this GitHub repository</a>.
+  </string>
+<!-- To Do: change the href above this too the github repo, it is not yet up and running -->
+
+  <!--string formatted="false" name="help_cat_donate">Donate</string>
+  <string formatted="false" name="help_donate">Please
+    consider donating by upgrading to the <a href="market://details?id=com.darshancomputing.BatteryIndicatorPro">Pro
+    Version</a>.
+  </string-->
+
+  <string formatted="false" name="help_cat_no_warranty">No Warranty</string>
+  <string formatted="false" name="help_no_warranty">
+    This software is distributed in the hope that it will be useful, but
+    WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n
+
+    \nWhile I do my best to make sure that it works well and does not
+    cause problems, I am not responsible for any damage or inconvenience
+    it may cause under any circumstance.
+  </string>
+
+  <string formatted="false" name="help_cat_contact">Contact</string>
+  <string formatted="false" name="help_contact">If
+    you have a question, comment, or want to help/learn, please
+    <a href="https://discord.gg/k9FCs8y">visit our Discord server</a>.
+  </string>
+
+  <string formatted="false" name="settings_activity_subtitle">Settings</string>
+
+  <string formatted="false" name="currently_set_to">"Currently set to: "</string>
+  <string formatted="false" name="currently_disabled">Currently Disabled</string>
+
+  <string formatted="false" name="pref_cat_a4">A4 frequency</string>
+
+  <string formatted="false" name="pref_a4_hz">A4 frequency</string>
+  <string formatted="false" name="pref_a4_hz_other">Other A4 frequency</string>
+
+  <string formatted="false" name="pref_cat_beginners">Beginners</string>
+
+  <string formatted="false" name="pref_flat_sharp_hint">Flat/sharp hint</string>
+
+  <string formatted="false" name="pref_cat_support_dev">Support development</string>
+  <string formatted="false" name="pref_support_dev_blurb">I\'ve chosen
+  to keep all of these options available to all users for free,
+  without restriction and without ads.  Please consider supporting the
+  development of this open source app by purchasing the Pro version of
+  my other app, BatteryBot.  (It\'s also open source and ad free!)
+  Thanks!
+  </string>
+  <string formatted="false" name="get_batterybot_b">Get BatteryBot Pro</string>
+</resources>

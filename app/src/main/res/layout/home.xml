@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:keepScreenOn="true"
+>
+  <TextView android:id="@+id/note"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="48sp"
+            android:textColor="#fff"
+  />
+  <FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+  <TextView android:id="@+id/tooFlat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:textColor="#ff0"
+            android:visibility="invisible"
+            android:text="Flat"
+  />
+
+  <TextView android:id="@+id/pitchInHz"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#ccc"
+  />
+
+  <TextView android:id="@+id/tooSharp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:textSize="20sp"
+            android:textColor="#ff0"
+            android:visibility="invisible"
+            android:text="Sharp"
+  />
+  </FrameLayout>
+  <!--com.wps.tuner.HorizontalCentView
+      android:id="@+id/cent_view"
+      android:layout_width="fill_parent"
+      android:layout_height="40dp"
+      android:paddingTop="6dp"
+      android:paddingBottom="6dp"
+      android:paddingLeft="11dp"
+      android:paddingRight="11dp"
+      android:scaleType="fitCenter"
+      android:gravity="center"
+      android:src="@drawable/horizontal_cent_background"
+      android:enabled="false"
+  /-->
+
+  <FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+  <com.wps.tuner.ArcCentView
+      android:id="@+id/cent_view"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:paddingTop="6dp"
+      android:paddingBottom="6dp"
+      android:paddingLeft="6dp"
+      android:paddingRight="6dp"
+      android:scaleType="fitCenter"
+      android:gravity="center"
+      android:src="@drawable/horizontal_cent_background"
+      android:enabled="false"
+  />
+
+    <TextView android:id="@+id/a4Hz"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="12dp"
+            android:paddingBottom="10dp"
+            android:gravity="left|bottom"
+            android:textSize="12sp"
+            android:textColor="#0f0"
+            />
+  </FrameLayout>
+
+  <!--TextView android:id="@+id/cents"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="#eee"
+  /-->
+</LinearLayout>

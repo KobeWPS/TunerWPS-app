@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wps.tuner"
+    android:sharedUserId="com.wps.tuner"
+    android:installLocation="auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:versionCode="23"
+    android:versionName="2.0.3-dev"
+>
+  <application
+      android:label="@string/app_full_name"
+      android:icon="@drawable/app_icon"
+      android:hardwareAccelerated="true"
+      android:process="com.wps.tuner"
+      android:allowBackup="false"
+      android:resizeableActivity="true"
+  >
+    <activity
+        android:name="com.wps.tuner.TunerActivity"
+        android:label="@string/app_launcher_name"
+        android:theme="@style/main_theme"
+        android:screenOrientation="unspecified"
+        android:launchMode="singleTop"
+    >
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+
+    <activity android:name="com.wps.tuner.HelpActivity"
+              android:stateNotNeeded="true"
+	      android:excludeFromRecents="true"
+    />
+
+<!--    <activity
+        android:name="com.wps.tuner.SettingsActivity"
+        android:theme="@style/main_theme"
+        android:excludeFromRecents="true"
+    />
+-->
+  </application>
+
+  <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+
+  <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+  <supports-screens
+      android:smallScreens="true"
+      android:normalScreens="true"
+      android:largeScreens="true"
+      android:anyDensity="true"
+  />
+</manifest>
